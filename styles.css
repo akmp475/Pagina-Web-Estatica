@@ -1,13 +1,31 @@
-/* body {
+body{
   font-family: sans-serif;
   background-color: #d9d9d9;
 }
-header {
+header{
   background-color: #d11aff;
-  color: #39e600;
+  color: #39e660;
   font-size: 12px;
-  text-align: left;
-  text-shadow: 3px 2px 2px black;
-  padding-top: 2px;
-  padding-bottom: 2px;
-} */
+  display: block;
+  justify-content: space-between;
+  padding: 8px;
+  align-items: center;
+  text-align: center;
+}
+
+h1, h2{
+  text-shadow: 5px 2px 2px black;
+}
+
+/* a/enlaces */
+a{
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+}
+a:hover{
+  color:#39e660;
+}
+a:active{
+  color:#d11aff;
+}
