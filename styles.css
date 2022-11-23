@@ -14,6 +14,7 @@ header{
 }
 
 h1, h2{
+  color: #39e660;
   text-shadow: 5px 2px 2px black;
 }
 
@@ -28,4 +29,9 @@ a:hover{
 }
 a:active{
   color:#d11aff;
+}
+article{
+  margin-top: 12px;
+  background-color: #d11aff;
+  padding: 8px;
 }
