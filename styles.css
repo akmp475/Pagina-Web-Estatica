@@ -35,3 +35,6 @@ article{
   background-color: #d11aff;
   padding: 8px;
 }
+ul{
+  list-style-type: none;
+}
